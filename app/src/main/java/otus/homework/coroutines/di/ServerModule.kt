@@ -9,7 +9,6 @@ import javax.inject.Named
 @Module
 interface ServerModule {
 
-
     companion object {
         @Named("photo")
         @Provides

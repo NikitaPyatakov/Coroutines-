@@ -1,8 +1,8 @@
-package otus.homework.coroutines.server.dto
+package otus.homework.coroutines.data.server.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class Photo(
+data class PhotoDto(
     @field:SerializedName("id")
     val id: String,
     @field:SerializedName("url")
